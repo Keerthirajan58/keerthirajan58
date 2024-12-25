@@ -1,4 +1,5 @@
 <h1 align="center"><img src="https://i.imgur.com/z3ox7v5.gif"/></h1>
+
 # Hi there, I'm Keerthirajan 👋
 
 🎓 Master’s in Computer Science | George Washington University  
