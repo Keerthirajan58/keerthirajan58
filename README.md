@@ -8,7 +8,7 @@
 📫 Reach me at keerthirajans@gwu.edu or check out my [Portfolio](https://keerthirajan-personal-portfolio.netlify.app/)  
 
 &nbsp;&nbsp;<a id="LinkedIn" href="https://linkedin.com/in/keerthirajan58/"><img height="20px" src="https://img.shields.io/badge/-Keerthirajan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/keerthirajan58/" alt="LinkedIn" /></a> &nbsp;&nbsp;
-<a id="Portfolio" href="https://keerthirajan-personal-portfolio.netlify.app/"><img height="20px" src="https://imgur.com/ZqeggKO.png" alt="Portfolio" /></a>&nbsp;&nbsp; <a id="GitHub" href="https://github.com/Keerthirajan58/portfolio/assets/Resume - Keerthirajan Senthilkumar.pdf"><img height="20px" src="https://img.shields.io/badge/-Resume-grey?style=flat-square&logo=github&logoColor=white" alt="Resume" /></a>&nbsp;&nbsp; <a id="Mail" href="mailto:keerthirajans@gwu.edu"><img height="20px" src="https://img.shields.io/badge/-Mail-orange?style=flat-square&logo=Gmail&logoColor=white" alt="Mail"/></a>
+<a id="Portfolio" href="https://keerthirajan-personal-portfolio.netlify.app/"><img height="20px" src="https://imgur.com/ZqeggKO.png" alt="Portfolio" /></a>&nbsp;&nbsp; <a id="GitHub" href="https://github.com/Keerthirajan58/portfolio/assets/Resume - Keerthirajan Senthilkumar.pdf"><img height="20px" src="https://img.shields.io/badge/-Resume-grey?style=flat-square&logo=github&logoColor=lightgreen" alt="Resume" /></a>&nbsp;&nbsp; <a id="Mail" href="mailto:keerthirajans@gwu.edu"><img height="20px" src="https://img.shields.io/badge/-Mail-orange?style=flat-square&logo=Gmail&logoColor=white" alt="Mail"/></a>
 
 
 
