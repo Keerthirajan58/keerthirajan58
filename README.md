@@ -5,10 +5,10 @@
 🎓 Master’s in Computer Science | George Washington University  
 🌟 Passionate about Machine Learning, Software Development, and Front-End Engineering  
 🚀 Open to Summer 2025 internship opportunities in ML / software engineering roles  
-📫 Reach me at keerthirajans@gwu.edu or check out my [Portfolio](https://keerthirajan-personal-portfolio.netlify.app/)  
+📫 Reach me at keerthirajans@gwu.edu or check out my [Portfolio](https://k-pportfolio.netlify.app/)  
 
 &nbsp;&nbsp;<a id="LinkedIn" href="https://www.linkedin.com/in/keerthirajans58/"><img height="20px" src="https://img.shields.io/badge/-Keerthirajan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/keerthirajans58/" alt="LinkedIn" /></a> &nbsp;&nbsp;
-<a id="Portfolio" href="https://keerthirajan-personal-portfolio.netlify.app/"><img height="20px" src="https://img.shields.io/badge/-Portfolio-red?style=flat-square&logo=react&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp; <a id="GitHub" href="https://github.com/Keerthirajan58/portfolio/blob/main/assets/Resume%20-%20Keerthirajan%20Senthilkumar.pdf"><img height="20px" src="https://img.shields.io/badge/-Resume-white?style=flat-square&logo=github&logoColor=black" alt="Resume" /></a>&nbsp;&nbsp; <a id="Mail" href="mailto:keerthirajans@gwu.edu"><img height="20px" src="https://img.shields.io/badge/-Mail-yellow?style=flat-square&logo=Gmail&logoColor=white" alt="Mail"/></a>
+<a id="Portfolio" href="https://k-pportfolio.netlify.app/"><img height="20px" src="https://img.shields.io/badge/-Portfolio-red?style=flat-square&logo=react&logoColor=white" alt="Portfolio" /></a>&nbsp;&nbsp; <a id="GitHub" href="https://github.com/Keerthirajan58/portfolio/blob/main/assets/Resume%20-%20Keerthirajan%20Senthilkumar.pdf"><img height="20px" src="https://img.shields.io/badge/-Resume-white?style=flat-square&logo=github&logoColor=black" alt="Resume" /></a>&nbsp;&nbsp; <a id="Mail" href="mailto:keerthirajans@gwu.edu"><img height="20px" src="https://img.shields.io/badge/-Mail-yellow?style=flat-square&logo=Gmail&logoColor=white" alt="Mail"/></a>
 
 
 
