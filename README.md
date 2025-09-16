@@ -3,8 +3,8 @@
 # Hi there, I'm Keerthirajan 👋
 
 🎓 Master’s in Computer Science | George Washington University  
-🌟 Passionate about Machine Learning, Software Development, and Front-End Engineering  
-🚀 Open to Summer 2025 internship opportunities in ML / software engineering roles  
+🌟 Passionate about Machine Learning & Software Engineering  
+🚀 Looking for Early career opportunities in AIML / software engineering roles  
 📫 Reach me at keerthirajans@gwu.edu or check out my [Portfolio](https://k-pportfolio.netlify.app/)  
 
 &nbsp;&nbsp;<a id="LinkedIn" href="https://www.linkedin.com/in/keerthirajans58/"><img height="20px" src="https://img.shields.io/badge/-Keerthirajan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/keerthirajans58/" alt="LinkedIn" /></a> &nbsp;&nbsp;
