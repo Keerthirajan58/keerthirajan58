@@ -1,6 +1,6 @@
 # How the profile images are made
 
-The profile README's own images (all but the badges, the GIFs and the skill icons) are SVGs
+The profile README's own images (all but the badges and the skill icons) are SVGs
 drawn by these scripts from [`data/profile.json`](../data/profile.json), in a light and a dark
 version (the README's `<picture>` picks one to match the viewer's GitHub theme).
 

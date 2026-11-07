@@ -58,12 +58,7 @@
 <sub>[Text version of these charts](https://github.com/Keerthirajan58/keerthirajan58/blob/output/live.md#signals)</sub>
 
 ## What do I know? 📜
-<p align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="88" alt="Python">
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="88" alt="JavaScript">
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="88" alt="React">
-</p>
-<p align="center"><img src="https://skillicons.dev/icons?i=ts,go,cpp,bash,nextjs,tailwind,pytorch,fastapi,django,flask,docker,kubernetes,postgres,azure,aws&perline=5" alt="More skills: TypeScript, Go, C++, Bash, Next.js, Tailwind CSS, PyTorch, FastAPI, Django, Flask, Docker, Kubernetes, PostgreSQL, Azure and AWS"></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=py,ts,js,go,cpp,bash,react,nextjs,tailwind,pytorch,fastapi,django,flask,docker,kubernetes,postgres,azure,aws&perline=6" alt="Skills: Python, TypeScript, JavaScript, Go, C++, Bash, React, Next.js, Tailwind CSS, PyTorch, FastAPI, Django, Flask, Docker, Kubernetes, PostgreSQL, Azure and AWS"></p>
 <p align="center"><sub>Also: SQL&nbsp;· Hugging&nbsp;Face&nbsp;Transformers&nbsp;· LoRA/PEFT&nbsp;· SFT&nbsp;· LangChain&nbsp;· LiteLLM&nbsp;· Ollama&nbsp;· RAG&nbsp;· MCP&nbsp;· OpenAI&nbsp;Realtime&nbsp;API&nbsp;· LLM-as-judge&nbsp;· pytest</sub></p>
 
 <picture>
