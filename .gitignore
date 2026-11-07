@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.cache/
+scripts/fonts/*.ttf
+.DS_Store
+assets/source/

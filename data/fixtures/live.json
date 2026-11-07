@@ -1,0 +1,170 @@
+{
+  "fetchedAt": "2026-11-07T06:28:49.162Z",
+  "login": "Keerthirajan58",
+  "contributionsLastYear": 413,
+  "languages": {
+    "repos": 21,
+    "list": [
+      {
+        "name": "Python",
+        "share": 0.403612
+      },
+      {
+        "name": "HTML",
+        "share": 0.177164
+      },
+      {
+        "name": "Jupyter Notebook",
+        "share": 0.158475
+      },
+      {
+        "name": "Kotlin",
+        "share": 0.092436
+      },
+      {
+        "name": "CSS",
+        "share": 0.048742
+      },
+      {
+        "name": "Dart",
+        "share": 0.042132
+      },
+      {
+        "name": "TypeScript",
+        "share": 0.039406
+      },
+      {
+        "name": "JavaScript",
+        "share": 0.036085
+      },
+      {
+        "name": "Shell",
+        "share": 0.000646
+      },
+      {
+        "name": "Makefile",
+        "share": 0.000579
+      },
+      {
+        "name": "Cython",
+        "share": 0.000316
+      },
+      {
+        "name": "Ruby",
+        "share": 0.000155
+      },
+      {
+        "name": "Dockerfile",
+        "share": 0.000094
+      },
+      {
+        "name": "PowerShell",
+        "share": 0.000045
+      },
+      {
+        "name": "Swift",
+        "share": 0.000041
+      },
+      {
+        "name": "Roff",
+        "share": 0.000039
+      },
+      {
+        "name": "Rust",
+        "share": 0.000017
+      },
+      {
+        "name": "Tree-sitter Query",
+        "share": 0.00001
+      },
+      {
+        "name": "C++",
+        "share": 0.000004
+      },
+      {
+        "name": "Objective-C",
+        "share": 0.000002
+      }
+    ]
+  },
+  "pullRequests": [
+    {
+      "repo": "nebari-dev/llm-serving-pack",
+      "number": 179,
+      "project": "Nebari",
+      "summary": "Report missing provider credentials in model status",
+      "url": "https://github.com/nebari-dev/llm-serving-pack/pull/179",
+      "title": "fix(operator): report passthrough credential status",
+      "status": "merged",
+      "openedAt": "2026-09-01T08:18:25Z",
+      "mergedAt": "2026-10-05T09:52:28Z",
+      "closedAt": "2026-10-05T09:52:28Z"
+    },
+    {
+      "repo": "openteams-ai/collab-hub-pack",
+      "number": 79,
+      "project": "OpenTeams Collab Hub",
+      "summary": "Live PostgreSQL tests for frame-group cleanup",
+      "url": "https://github.com/openteams-ai/collab-hub-pack/pull/79",
+      "title": "Test frame-group reconciliation against live PostgreSQL",
+      "status": "merged",
+      "openedAt": "2026-09-04T20:05:00Z",
+      "mergedAt": "2026-09-15T09:46:59Z",
+      "closedAt": "2026-09-15T09:47:00Z"
+    },
+    {
+      "repo": "ShishirPatil/gorilla",
+      "number": 1365,
+      "project": "Gorilla (BFCL)",
+      "summary": "Fix a BFCL CLI crash on a missing audio dependency",
+      "url": "https://github.com/ShishirPatil/gorilla/pull/1365",
+      "title": "[BFCL] Defer qwen_agent import until handler initialization",
+      "status": "open",
+      "openedAt": "2026-09-04T23:56:04Z",
+      "mergedAt": null,
+      "closedAt": null
+    },
+    {
+      "repo": "nebari-dev/nebi",
+      "number": 567,
+      "project": "Nebari",
+      "summary": "Digest-pinned OCI imports",
+      "url": "https://github.com/nebari-dev/nebi/pull/567",
+      "title": "Support digest-pinned OCI imports",
+      "status": "open",
+      "openedAt": "2026-09-07T03:56:26Z",
+      "mergedAt": null,
+      "closedAt": null
+    },
+    {
+      "repo": "nebari-dev/llm-serving-pack",
+      "number": 186,
+      "project": "Nebari",
+      "summary": "Restore the default Endpoint Picker image",
+      "url": "https://github.com/nebari-dev/llm-serving-pack/pull/186",
+      "title": "fix: restore the default Endpoint Picker image",
+      "status": "open",
+      "openedAt": "2026-09-04T05:12:13Z",
+      "mergedAt": null,
+      "closedAt": null
+    },
+    {
+      "repo": "nebari-dev/data-science-pack",
+      "number": 246,
+      "project": "Nebari",
+      "summary": "Configurable shared memory for JupyterHub pods",
+      "url": "https://github.com/nebari-dev/data-science-pack/pull/246",
+      "title": "feat: configure shared memory for singleuser pods",
+      "status": "open",
+      "openedAt": "2026-09-04T06:58:19Z",
+      "mergedAt": null,
+      "closedAt": null
+    }
+  ],
+  "package": {
+    "name": "bugbout",
+    "version": "0.1.0",
+    "uploaded": "2026-10-21T03:19:55.242969Z",
+    "url": "https://pypi.org/project/bugbout/"
+  }
+}

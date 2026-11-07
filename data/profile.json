@@ -1,0 +1,357 @@
+{
+  "_about": "Facts for the profile images. Sources: my résumé (Nov 2026), my portfolio (keerthi58.vercel.app) and GitHub. Edit this file, then run `npm run build`; the weekly workflow redraws the live images.",
+  "login": "Keerthirajan58",
+  "name": "Keerthirajan Senthilkumar",
+  "shortName": "Keerthirajan",
+  "role": "AI Engineer",
+  "company": "EventDone",
+  "location": "San Francisco, CA",
+  "timeZone": "America/Los_Angeles",
+  "openTo": "Open to AI/ML and software engineering roles",
+  "links": {
+    "portfolio": "https://keerthi58.vercel.app",
+    "resume": "https://keerthi58.vercel.app/Keerthirajan-Senthilkumar-Resume.pdf",
+    "linkedin": "https://www.linkedin.com/in/keerthirajans58/",
+    "github": "https://github.com/Keerthirajan58",
+    "email": "keerthirajans@gwu.edu",
+    "pypi": "https://pypi.org/project/bugbout/",
+    "medium": "https://medium.com/@keerthirajans",
+    "devto": "https://dev.to/keerthirajan_senthilkumar",
+    "leetcode": "https://leetcode.com/u/keerthirajan58/"
+  },
+  "banner": {
+    "title": "keerthirajan@sf: ~ — whoami",
+    "rows": [
+      [
+        "Name",
+        "Keerthirajan Senthilkumar"
+      ],
+      [
+        "Role",
+        "AI Engineer · EventDone"
+      ],
+      [
+        "Previously",
+        "ML Engineer Intern · Apple Siri",
+        "Ex-Apple Siri · ML Engineer Intern"
+      ],
+      [
+        "Base",
+        "San Francisco, CA · open to relocate"
+      ],
+      [
+        "Education",
+        "M.S. Computer Science · GWU '26"
+      ],
+      [
+        "Focus",
+        "LLM evals · agents · LLM infra"
+      ],
+      [
+        "Shipping",
+        "bugbout · open source on PyPI"
+      ],
+      [
+        "---"
+      ],
+      [
+        "Languages",
+        "Python · TypeScript · Go · SQL"
+      ],
+      [
+        "ML",
+        "PyTorch · Transformers · LoRA/PEFT"
+      ],
+      [
+        "LLM",
+        "LiteLLM · Ollama · RAG · MCP"
+      ],
+      [
+        "Infra",
+        "FastAPI · Docker · Kubernetes"
+      ],
+      [
+        "---"
+      ],
+      [
+        "Web",
+        "keerthi58.vercel.app"
+      ],
+      [
+        "Email",
+        "keerthirajans@gwu.edu"
+      ],
+      [
+        "LinkedIn",
+        "/in/keerthirajans58"
+      ]
+    ],
+    "status": "Open to AI/ML & SWE roles",
+    "zone": "San Francisco · Pacific time"
+  },
+  "typing": [
+    "Building bugbout: which coding agent really fixes bugs?"
+  ],
+  "focus": {
+    "title": "Work by area",
+    "subtitle": "Roles and projects per area, since 2025",
+    "areas": [
+      {
+        "id": "eval",
+        "label": "Evaluation"
+      },
+      {
+        "id": "agents",
+        "label": "Agents & tool use"
+      },
+      {
+        "id": "infra",
+        "label": "LLM infra"
+      },
+      {
+        "id": "tuning",
+        "label": "Fine-tuning"
+      },
+      {
+        "id": "fullstack",
+        "label": "Full-stack & APIs"
+      },
+      {
+        "id": "ml",
+        "label": "ML & vision"
+      }
+    ],
+    "items": [
+      {
+        "name": "EventDone, AI Engineer",
+        "year": 2026,
+        "areas": [
+          "infra"
+        ]
+      },
+      {
+        "name": "Apple, Siri Core Modeling intern",
+        "year": 2025,
+        "areas": [
+          "eval",
+          "agents"
+        ]
+      },
+      {
+        "name": "Tool ambiguity in LLMs (research)",
+        "year": 2026,
+        "areas": [
+          "eval",
+          "agents",
+          "tuning"
+        ]
+      },
+      {
+        "name": "bugbout",
+        "year": 2026,
+        "areas": [
+          "eval",
+          "agents"
+        ]
+      },
+      {
+        "name": "Night Shift",
+        "year": 2026,
+        "areas": [
+          "agents",
+          "infra"
+        ]
+      },
+      {
+        "name": "Voice-agent evaluation harness",
+        "year": 2026,
+        "areas": [
+          "eval",
+          "agents",
+          "fullstack"
+        ]
+      },
+      {
+        "name": "Open-source PRs (Nebari, OpenTeams, Gorilla)",
+        "year": 2026,
+        "areas": [
+          "infra",
+          "fullstack"
+        ]
+      },
+      {
+        "name": "BarterBrAIn",
+        "year": 2025,
+        "areas": [
+          "fullstack"
+        ]
+      },
+      {
+        "name": "Historical Event Narrator",
+        "year": 2025,
+        "areas": [
+          "tuning",
+          "eval"
+        ]
+      },
+      {
+        "name": "Coding Problem Recommender",
+        "year": 2025,
+        "areas": [
+          "ml",
+          "fullstack"
+        ]
+      },
+      {
+        "name": "Face Cloaking",
+        "year": 2025,
+        "areas": [
+          "ml"
+        ]
+      },
+      {
+        "name": "PitchPulse",
+        "year": 2026,
+        "areas": [
+          "fullstack",
+          "ml"
+        ]
+      },
+      {
+        "name": "This portfolio",
+        "year": 2026,
+        "areas": [
+          "fullstack"
+        ]
+      }
+    ]
+  },
+  "featured": [
+    {
+      "slug": "bugbout",
+      "eyebrow": "Open source · PyPI",
+      "title": "bugbout",
+      "line": "Replays a repo's own fixed bugs to find out which coding agent actually fixes them.",
+      "facts": [
+        "27 of 66 \"done\" patches were wrong",
+        "Hidden fail-to-pass tests",
+        "MIT · Python CLI"
+      ],
+      "href": "https://github.com/Keerthirajan58/bugbout",
+      "label": "github.com/Keerthirajan58/bugbout",
+      "phoneLine": "27 of 66 \"done\" patches were wrong"
+    },
+    {
+      "slug": "nightshift",
+      "eyebrow": "2nd place · Dell x NVIDIA AI Hackathon",
+      "title": "Night Shift",
+      "line": "An on-call agent built in one day, with all LLM inference local on an NVIDIA GB10.",
+      "facts": [
+        "4 parallel LLM specialists",
+        "Fixes need approval in Slack",
+        "384 tests"
+      ],
+      "href": "https://github.com/Keerthirajan58/nightshift",
+      "label": "github.com/Keerthirajan58/nightshift",
+      "phoneLine": "2nd place · Dell x NVIDIA AI Hackathon"
+    },
+    {
+      "slug": "tool-ambiguity",
+      "eyebrow": "Research · Llama 3.1 8B + LoRA",
+      "title": "When to act, when to ask",
+      "line": "Fine-tuned an LLM to call the right tool or ask for clarification when a request is ambiguous.",
+      "facts": [
+        "Accuracy 60.9% → 70.9%",
+        "Clarification 80.5% → 95.1%",
+        "110-query held-out set"
+      ],
+      "href": "https://github.com/Keerthirajan58/Tool-Ambiguity-in-LLMs",
+      "label": "github.com/Keerthirajan58/Tool-Ambiguity-in-LLMs",
+      "phoneLine": "Accuracy 60.9% → 70.9%"
+    },
+    {
+      "slug": "voice-agent",
+      "eyebrow": "Evaluation · OpenAI Realtime API",
+      "title": "Voice-agent evaluation harness",
+      "line": "A speech-to-speech caller that placed 100 scripted calls to an LLM voice agent.",
+      "facts": [
+        "14 verified bugs",
+        "Twilio Media Streams + FastAPI",
+        "482 tests · 98.7% coverage"
+      ],
+      "href": "https://github.com/Keerthirajan58/Pretty-Good-AI-Ai-Engineering-Challenge",
+      "label": "github.com/Keerthirajan58/Pretty-Good-AI-…",
+      "phoneLine": "14 verified bugs"
+    },
+    {
+      "slug": "siri",
+      "eyebrow": "Apple · Siri Core Modeling internship",
+      "title": "Ambiguous tool calling",
+      "line": "A 1,096-query benchmark across 8 API domains that tests when an LLM should act or ask.",
+      "facts": [
+        "Gorilla OpenFunctions v2: 83.5% → 33.3% when ambiguous",
+        "LLM-as-judge labelling",
+        "731 failures in 5 types"
+      ],
+      "href": "https://keerthi58.vercel.app/projects/siri-core-modeling",
+      "label": "keerthi58.vercel.app/projects/siri-core-modeling",
+      "phoneLine": "Apple · Siri Core Modeling internship"
+    },
+    {
+      "slug": "barterbrain",
+      "eyebrow": "Technica 2025 · Best Hack for Social Good",
+      "title": "BarterBrAIn",
+      "line": "A campus barter app with Gemini-powered valuation and negotiation.",
+      "facts": [
+        "Gemini 2.5 multimodal APIs",
+        "Confidence score per valuation",
+        "Flutter + Firebase"
+      ],
+      "href": "https://keerthi58.vercel.app/projects/barterbrain",
+      "label": "keerthi58.vercel.app/projects/barterbrain",
+      "phoneLine": "Technica 2025 · Best Hack for Social Good"
+    }
+  ],
+  "openSource": [
+    {
+      "repo": "nebari-dev/llm-serving-pack",
+      "number": 179,
+      "project": "Nebari",
+      "summary": "Report missing provider credentials in model status"
+    },
+    {
+      "repo": "openteams-ai/collab-hub-pack",
+      "number": 79,
+      "project": "OpenTeams Collab Hub",
+      "summary": "Live PostgreSQL tests for frame-group cleanup"
+    },
+    {
+      "repo": "ShishirPatil/gorilla",
+      "number": 1365,
+      "project": "Gorilla (BFCL)",
+      "summary": "Fix a BFCL CLI crash on a missing audio dependency"
+    },
+    {
+      "repo": "nebari-dev/nebi",
+      "number": 567,
+      "project": "Nebari",
+      "summary": "Digest-pinned OCI imports"
+    },
+    {
+      "repo": "nebari-dev/llm-serving-pack",
+      "number": 186,
+      "project": "Nebari",
+      "summary": "Restore the default Endpoint Picker image"
+    },
+    {
+      "repo": "nebari-dev/data-science-pack",
+      "number": 246,
+      "project": "Nebari",
+      "summary": "Configurable shared memory for JupyterHub pods"
+    }
+  ],
+  "package": {
+    "name": "bugbout",
+    "registry": "pypi"
+  }
+}

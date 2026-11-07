@@ -1,0 +1,50 @@
+# Redraws the README's live images (Signals and Open source) from fresh GitHub and PyPI
+# data, and publishes them to the `output` branch, where the README reads them. Keeping
+# them off `main` means no automated commits in the main history.
+name: Live images
+
+on:
+  schedule:
+    - cron: "23 7 * * 1" # Mondays, 07:23 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/profile.json"
+      - "scripts/**"
+      - ".github/workflows/live.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-images
+  cancel-in-progress: true
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+
+      # No dependencies: the scripts use only Node's built-ins and scripts/lib/glyphs.json.
+      - name: Draw the live images
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/live.mjs --out dist
+
+      - name: Publish to the output branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Draw the live profile images"
+          git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output

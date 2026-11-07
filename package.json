@@ -1,0 +1,19 @@
+{
+  "name": "keerthirajan58",
+  "private": true,
+  "type": "module",
+  "description": "Sources for the github.com/Keerthirajan58 profile README.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "fonts": "node scripts/fonts.mjs",
+    "portrait": "node scripts/portrait.mjs",
+    "build": "node scripts/build.mjs",
+    "live": "node scripts/live.mjs --out dist"
+  },
+  "devDependencies": {
+    "opentype.js": "1.3.4",
+    "sharp": "0.34.5"
+  }
+}
