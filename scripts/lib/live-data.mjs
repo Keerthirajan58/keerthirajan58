@@ -1,4 +1,4 @@
-// Fetches the live numbers the weekly workflow draws: languages across my public
+// Fetches the live numbers the daily workflow draws: languages across my public
 // repositories, contributions in the last year, the status of my open-source pull
 // requests, and the latest bugbout release. Uses only Node's built-in fetch.
 // Needs GITHUB_TOKEN (the workflow's token is enough; locally, `GH_TOKEN=$(gh auth token)`).

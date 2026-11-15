@@ -1,5 +1,5 @@
 <!-- The images are drawn from data/profile.json by scripts/ (npm run build). The Signals and
-     Open source images live on the `output` branch and are redrawn every week by
+     Open source images live on the `output` branch and are redrawn every day by
      .github/workflows/live.yml, which also writes their text version (live.md). -->
 <div align="center">
 <picture>
@@ -42,7 +42,7 @@
 ## Open source 🌱
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Keerthirajan58/keerthirajan58/output/pulse-dark.svg">
-  <img src="https://raw.githubusercontent.com/Keerthirajan58/keerthirajan58/output/pulse-light.svg" width="100%" alt="My open-source activity from GitHub and PyPI, refreshed weekly: contributions in the last year, pull requests merged upstream, pull requests in review, upstream repositories and the latest bugbout release, then my upstream pull requests, newest first, each with its status (such as Merged or In review), repository, summary and month. A text version is linked below.">
+  <img src="https://raw.githubusercontent.com/Keerthirajan58/keerthirajan58/output/pulse-light.svg" width="100%" alt="My open-source activity from GitHub and PyPI, refreshed daily: contributions in the last year, pull requests merged upstream, pull requests in review, upstream repositories and the latest bugbout release, then my upstream pull requests, newest first, each with its status (such as Merged or In review), repository, summary and month. A text version is linked below.">
 </picture>
 
 <sub>Pull requests: [nebari-dev/llm-serving-pack#179](https://github.com/nebari-dev/llm-serving-pack/pull/179) · [openteams-ai/collab-hub-pack#79](https://github.com/openteams-ai/collab-hub-pack/pull/79) · [nebari-dev/nebi#567](https://github.com/nebari-dev/nebi/pull/567) · [ShishirPatil/gorilla#1365](https://github.com/ShishirPatil/gorilla/pull/1365) · [nebari-dev/data-science-pack#246](https://github.com/nebari-dev/data-science-pack/pull/246) · [nebari-dev/llm-serving-pack#186](https://github.com/nebari-dev/llm-serving-pack/pull/186)</sub>
@@ -52,7 +52,7 @@
 ## Signals 📡
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Keerthirajan58/keerthirajan58/output/signals-dark.svg">
-  <img src="https://raw.githubusercontent.com/Keerthirajan58/keerthirajan58/output/signals-light.svg" width="100%" alt="Two charts. Work by area: a radar chart of how many of my 13 roles and projects since 2025 involve each area (some cover several): Full-stack and APIs 6, Evaluation 5, Agents and tool use 5, LLM infra 3, ML and vision 3, Fine-tuning 2. Languages: a bar and a list of each language's average share of code per public repository, the top five languages and Other, with the date of the weekly update and the number of repositories. A text version is linked below.">
+  <img src="https://raw.githubusercontent.com/Keerthirajan58/keerthirajan58/output/signals-light.svg" width="100%" alt="Two charts. Work by area: a radar chart of how many of my 13 roles and projects since 2025 involve each area (some cover several): Full-stack and APIs 6, Evaluation 5, Agents and tool use 5, LLM infra 3, ML and vision 3, Fine-tuning 2. Languages: a bar and a list of each language's average share of code per public repository, the top five languages and Other, with the date of the daily update and the number of repositories. A text version is linked below.">
 </picture>
 
 <sub>[Text version of these charts](https://github.com/Keerthirajan58/keerthirajan58/blob/output/live.md#signals)</sub>

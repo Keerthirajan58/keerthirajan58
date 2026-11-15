@@ -5,7 +5,7 @@ name: Live images
 
 on:
   schedule:
-    - cron: "23 7 * * 1" # Mondays, 07:23 UTC
+    - cron: "23 7 * * *" # Every day, 07:23 UTC
   workflow_dispatch:
   push:
     branches: [main]

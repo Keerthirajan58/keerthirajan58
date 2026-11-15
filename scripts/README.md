@@ -24,13 +24,13 @@ version (the README's `<picture>` picks one to match the viewer's GitHub theme).
 - **Alt text:** the README describes each image in its alt text, by hand. When you change a card, a
   banner row, the typing line or `focus`, update the matching alt in README.md in the same commit.
 - **Live images:** [`.github/workflows/live.yml`](../.github/workflows/live.yml) fetches fresh GitHub
-  and PyPI data every Monday (and after any change here), redraws them and force-pushes them to the
+  and PyPI data every day (and after any change here), redraws them and force-pushes them to the
   `output` branch, so `main` gets no automated commits. To draw them locally:
   `GH_TOKEN=$(gh auth token) node scripts/live.mjs --out dist`, or from saved data:
   `node scripts/live.mjs --out dist --fixture data/fixtures/live.json`. It also writes `live.md`, the
   same numbers as text, which the README links under each image. Languages are averaged per
   repository, so one large repository cannot outweigh the rest.
-  GitHub pauses the Monday schedule after 60 days without activity in this repo, and the images then
+  GitHub pauses the daily schedule after 60 days without activity in this repo, and the images then
   keep their last "Updated" date. To restart it: Actions > Live images > Enable workflow (or
   `gh workflow enable live.yml`), then Run workflow.
 - **Text** is drawn from glyph outlines in `lib/glyphs.json` (JetBrains Mono, Inter and Unbounded, all under

@@ -1,4 +1,4 @@
-// Signals: two charts on one sheet, redrawn every week from live data.
+// Signals: two charts on one sheet, redrawn every day from live data.
 // Left, "Work by area" (profile.focus.title): a radar of how many of my roles and projects
 // (profile.focus.items) involve each area (profile.focus.areas). Right, "Languages": each
 // language's share of code averaged over my public repositories, each counting equally
@@ -156,7 +156,7 @@ const inSentence = (s) => (/^[A-Z][a-z]/.test(s) ? s[0].toLowerCase() + s.slice(
 // ---------------------------------------------------------------- drawing helpers
 
 /** Draws runs of text with different fonts and colours as one line. Data text is drawn
- * leniently: a character the fonts lack shows as "?" instead of failing the weekly run. */
+ * leniently: a character the fonts lack shows as "?" instead of failing the daily run. */
 function runs(tx, parts, { x, y, anchor = "start" }) {
   const widths = parts.map((p) => tx.measure(p.str, p));
   const w = widths.reduce((a, b) => a + b, 0);
@@ -340,7 +340,7 @@ function languagesPanel(tx, t, langs, meta, colours, box) {
 
   const { parts } = langs;
   if (!parts.length) {
-    out.push(tx.draw("No language data this week", { x: x0, y: box.y0 + 40, font: "sans", size: 15, fill: t.muted }));
+    out.push(tx.draw("No language data today", { x: x0, y: box.y0 + 40, font: "sans", size: 15, fill: t.muted }));
     return out.join("");
   }
 
@@ -431,7 +431,7 @@ function languagesPhone(tx, t, parts, colours, box, grid) {
   const size = PHONE.text;
   const out = [tx.draw("Languages", { x: box.x0, y: grid.title, font: "sansSemi", size: PHONE.title, fill: t.text })];
   if (!parts.length) {
-    out.push(tx.draw(tx.fit("No language data this week", box.x1 - box.x0, { font: "sans", size }), { x: box.x0, y: grid.rows[0], font: "sans", size, fill: t.muted }));
+    out.push(tx.draw(tx.fit("No language data today", box.x1 - box.x0, { font: "sans", size }), { x: box.x0, y: grid.rows[0], font: "sans", size, fill: t.muted }));
     return out.join("");
   }
   // The bar lines up with the first area row, and each language row with the next ones,

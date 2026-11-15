@@ -1,6 +1,6 @@
 // Draws the live profile images (Open source and Signals) into an output folder, from
 // fresh GitHub and PyPI data, with live.md: the same numbers as text, which the README
-// links under each image. The weekly workflow publishes that folder to the `output`
+// links under each image. The daily workflow publishes that folder to the `output`
 // branch, where the README reads them.
 // Usage: node scripts/live.mjs --out dist [--fixture data/fixtures/live.json] [--only signals]
 import fs from "node:fs";
@@ -44,7 +44,7 @@ for (const name of MODULES) {
 // The same numbers as text, for readers who cannot see the images; the README links here.
 if (!only.length) {
   const file = path.join(out, "live.md");
-  const intro = `The numbers in the Open source and Signals images on [my GitHub profile](https://github.com/${profile.login}), as text. They are redrawn every week.`;
+  const intro = `The numbers in the Open source and Signals images on [my GitHub profile](https://github.com/${profile.login}), as text. They are redrawn every day.`;
   fs.writeFileSync(file, ["# Open source and Signals, as text", "", intro, "", ...texts].join("\n"));
   console.log(file);
 }

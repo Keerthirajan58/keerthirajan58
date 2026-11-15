@@ -1,5 +1,5 @@
 // Draws the "Open source" pulse: live GitHub numbers in a row of stat tiles, then the
-// status of my upstream pull requests. scripts/live.mjs redraws it every week from fresh
+// status of my upstream pull requests. scripts/live.mjs redraws it every day from fresh
 // data, so every number is computed from `live` and data/profile.json, and every line of
 // text is measured and fitted so that new data cannot overflow the sheet.
 //
@@ -111,14 +111,14 @@ function buildModel(profile, live) {
 
   const fetched = toDate(live.fetchedAt);
   const updated = fetched ? `Updated ${dayDate(fetched, profile.timeZone)}` : "";
-  const footer = updated ? `${updated} · refreshed weekly` : "Refreshed weekly";
+  const footer = updated ? `${updated} · refreshed daily` : "Refreshed daily";
   const text = (t) => t.parts.map((p) => p.s).join("");
   const desc =
     `${tiles.map((t) => `${t.label}: ${text(t)}.`).join(" ")} ` +
     prs.map((p) => `${STATUS[p.status].label}: ${ref(p)}, ${p.summary}${p.date ? `, ${p.date}` : ""}.`).join(" ") +
     ` ${footer}.`;
 
-  return { tiles, prs, footer, updated: updated || "Refreshed weekly", desc };
+  return { tiles, prs, footer, updated: updated || "Refreshed daily", desc };
 }
 
 const partsWidth = (parts, size) => parts.reduce((w, p) => w + probe.measure(p.s, { font: p.font, size }), 0);
